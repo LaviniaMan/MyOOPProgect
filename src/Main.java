@@ -81,18 +81,30 @@ public class Main {
         film1.setTitlu("Titanic");
         System.out.println(film1.getTitlu());
 
-        Inotator inotator1 = new Inotator();
+        Inotator inotator1 = new Inotator("Romania", "Fluture");
         inotator1.seAntreneaza();
         inotator1.seOdihneste();
+        System.out.println(inotator1.sport);
 
-        Maratonist maratonist1 = new Maratonist();
+        Maratonist maratonist1 = new Maratonist("Nigeria", "100 m");
         maratonist1.seAntreneaza();
         maratonist1.seOdihneste();
+        System.out.println(maratonist1.sport);
 
         Pisica pisica1 = new Pisica();
         pisica1.scoateSunete();
 
         Caine caine1 = new Caine();
         caine1.scoateSunete();
+
+        Mamifer mamifer1 = new Pisica();
+        mamifer1.scoateSunete();
+
+        Pisica pisica2 = new Pisica();
+        Mamifer pisica3 = pisica2;
+
+     // Mamifer pisica4 = new Mamifer(); // pisica4 e de tip Mamifer
+     // Pisica pisica5 =  (Pisica) pisica4; // pisica5 il facem de tip Pisica
+
     }
 }
