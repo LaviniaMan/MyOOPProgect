@@ -65,7 +65,34 @@ public class Main {
 
         System.out.println(animal3.afiseaza());
 
+        Elev elev1 = new Elev("Popescu");
+        Elev elev2 = new Elev("Ionescu");
+        System.out.println(elev1.nume);
+        System.out.println(elev2.nume);
 
+        elev1.diriginte = "Isoscel2";
+        System.out.println(elev2.diriginte);
 
+        elev1.metodaNonStatica();
+        Elev.metodaStatica();
+
+        Film film1 = new Film();
+     //   film1.nume = "Titanic";     Nu se poate afisa datorita caraterului private
+        film1.setTitlu("Titanic");
+        System.out.println(film1.getTitlu());
+
+        Inotator inotator1 = new Inotator();
+        inotator1.seAntreneaza();
+        inotator1.seOdihneste();
+
+        Maratonist maratonist1 = new Maratonist();
+        maratonist1.seAntreneaza();
+        maratonist1.seOdihneste();
+
+        Pisica pisica1 = new Pisica();
+        pisica1.scoateSunete();
+
+        Caine caine1 = new Caine();
+        caine1.scoateSunete();
     }
 }
