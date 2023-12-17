@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class MyArrayList {
     public static void main(String[] args) {
 
-
         ArrayList<String> listaNoastra = new ArrayList<>();
         listaNoastra.add("First");
         listaNoastra.add("Second");
@@ -18,9 +17,6 @@ public class MyArrayList {
         System.out.println(listaNoastra.size());
         System.out.println(listaNoastra.contains("Second"));
         System.out.println(listaNoastra.indexOf("Second"));
-
-
-
 
     }
 }
