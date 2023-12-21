@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Cursuri {
+
     public static void main(String[] args) {
 
         ArrayList<String> cursuri = new ArrayList<>();
@@ -9,12 +10,12 @@ public class Cursuri {
         cursuri.add("Front-end");
         cursuri.add("Java");
 
-        System.out.println(cursuri.get(1));
+        System.out.println("Elementul de pe a doua pozitie este "+cursuri.get(1));
 
-        System.out.println(cursuri.size());
+        System.out.println("Lungimea listei este "+cursuri.size());
 
         for (String element:cursuri){
-            System.out.println(element);
+            System.out.println("Elementele cursului sunt "+element);
         }
 
     }

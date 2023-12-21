@@ -16,6 +16,12 @@ public class HashMapStudenti {
                 }
             }
 
+            for (String c:studenti.keySet()){
+                if (studenti.get(c)){
+                    System.out.println(c);
+                }
+            }
+
         }
     }
 

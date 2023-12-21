@@ -8,7 +8,6 @@ public class Animal {
         this.culoare = "unknown";
         this.vegetarian = false;
     }
-
     public Animal(String nume) {
         this.nume = nume;
     }
